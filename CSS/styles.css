@@ -1,0 +1,104 @@
+body{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTptDddyBZG4i4cycd6ZIBP2wT8PQKhihUqenZF7GpzlvTZuPghGQ");
+}
+h1 {
+  font-size: 100px;
+  font-family: "Edwardian Script ITC", sans-serif;
+  color: white;
+}
+
+h2 {
+  font-size: 100px
+  font-family: times;
+  color: White;
+}
+
+h2 {
+  font-family: 'Bilbo Swash Caps';
+  font-size: 22px;
+  font-color: blue;
+}
+
+#about{
+  font-size: 200px
+  font-family:monospace;
+  color: white;
+  background-color: grey;
+}
+nav {
+  background-color: blue;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+
+#navbar li{
+  display: inline;
+  padding-left: 17.5%;
+  font-size: 35px;
+  font-family: 'Barlow Semi Condensed', times;
+  letter-spacing: 3px;
+  width: 33%;
+}
+
+#navbar li a:hover{
+  font-weight: bold;
+  cursor: cell;
+  text-shadow: black 5px 5px 5px;
+}
+
+#navbar ul{
+  list-style-type: none;
+}
+
+#navbar a{
+  text-decoration: none;
+  color: White;
+}
+
+
+/*Styling for the image of myself*/
+
+#image_me{
+  margin-right: 20%;
+  margin-top: 10%;
+  border-radius: 50%;
+  float: center;
+}
+
+#image_me:hover{
+  box-shadow: 6px 6px 5px black;
+  width: 340px;
+  height: 310px;
+  transition: 3s ease;
+  cursor: progress;
+}
+
+/*Footer section styling below this contact my details and social media links*/
+
+
+
+#contact{
+  width: 50%;
+  /* float: left; */
+  font-size: 20px;
+  font-family: 'Barlow Semi Condensed', agency;
+  /* padding-left: 10%;
+  letter-spacing: 3px; */
+}
+
+#contact a{
+  cursor: auto;
+}
+
+#contact i:hover{
+  transition: 2s ease;
+  transform: rotateY(720deg);
+}
+
+/*Back to top section styling*/
+
+
+footer{
+  background-image: url("https://images2.alphacoders.com/568/thumb-1920-568747.jpg");
+}
